@@ -34,7 +34,7 @@ function App() {
 
   return (
     <header>
-      <h1> BABY NAME-PICKER APP</h1>
+      <h1> BABY NAMEs-PICKER APP</h1>
 
       <div className="img-container">
         <img
