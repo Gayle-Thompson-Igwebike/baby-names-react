@@ -63,7 +63,7 @@ function App() {
           id="btn"
           onClick={handleRandomName}
         >
-          Generate A Random Name
+          Generate Random Name
         </button>
       </div>
       <div className="cards-display">
