@@ -5,6 +5,7 @@ import "./App.css";
 function App() {
   const [allBabyNames, setAllBabyNames] = useState([]);
   const [searchedNames, setSearchedNames] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [favouriteNames, setFavouriteNames] = useState([]);
 
   useEffect(() => {
