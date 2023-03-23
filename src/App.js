@@ -74,7 +74,7 @@ function App() {
             <div className={`name-cards color-${baby.sex}`}>
               {baby.name}{" "}
               <button id="fave-btn" onClick={() => handleAddToFavourites(baby.name)}>
-                Add To Faves
+                Add
               </button>
             </div>
           ))}
