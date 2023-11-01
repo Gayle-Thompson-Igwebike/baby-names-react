@@ -137,28 +137,21 @@ background-image: linear-gradient(to left, rgb(245, 121, 235), rgb(105, 162, 238
 #fave-btn {
     margin-top: 1rem;
     min-width: 65px;
-    /* Set a minimum width */
     padding: 5px 15px;
-    /* Add padding for better clickability */
     border: 2px solid rgb(142, 4, 154);
     border-radius: 30px;
     background-color: rgb(130, 208, 244);
     cursor: pointer;
-    /* Add cursor pointer for indicating clickability */
   }
     
   
     .favourite-names {
       margin-top: 2rem;
       margin-left: 4rem;
-      /* Adjust the margin as needed */
       padding: 1rem;
       background-color: #f2f2f2;
-      /* Background color for the favorites section */
       border: 3px solid rgb(142, 4, 154);
-      /* Border for the favorites section */
       border-radius: 10px;
-      /* Rounded corners */
       width: 300px;
       background-image: linear-gradient(to left, rgb(110, 232, 222), rgb(242, 215, 128), rgb(240, 224, 237));
     }
@@ -177,17 +170,8 @@ background-image: linear-gradient(to left, rgb(245, 121, 235), rgb(105, 162, 238
   
     .favourite-names li {
       font-size: 18px;
-      /* List item font size */
       margin-bottom: 5px;
       /* Spacing between favorite names */
     }
 
-
-
-
-  /* margin-top: 2rem;
-  width: 60px;
-  border: 2px solid rgb(142, 4, 154);
-  border-radius: 30px;
-  background-color: rgb(130, 208, 244); */
  

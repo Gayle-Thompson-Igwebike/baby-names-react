@@ -18,6 +18,7 @@ function App() {
 
   const resetSearch = (event) => {
     setSearchedNames("");
+    setFavouriteNames([]); // Set this to an empty array to clear the favourites list
   };
 
   const filteredBabyNames = allBabyNames.filter((baby) => {
@@ -51,7 +52,7 @@ function App() {
 
       <div className="img-container">
         <img
-          src="https://www.pngitem.com/pimgs/m/234-2341738_stork-png-transparent-background-transparent-background-stork-cartoon.png"
+          src="https://static.vecteezy.com/system/resources/previews/000/455/593/non_2x/stork-baby-delivering-newborn-boy-vector.jpg"
           alt="stork and baby img"
         ></img>
       </div>
